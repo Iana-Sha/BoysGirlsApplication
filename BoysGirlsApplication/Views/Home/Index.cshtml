@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">BOYS & GIRLS</h1>
+    @*Thre is a tag to lead to different areas*@
+    <a asp-area="Boy" asp-controller="Home" asp-action="Index">Boy</a>
+    <a asp-area="Girl" asp-controller="Home" asp-action="Index">Girl</a>
+    <a asp-area="Teacher" asp-controller="Home" asp-action="Index">Teacher</a>
+</div>
